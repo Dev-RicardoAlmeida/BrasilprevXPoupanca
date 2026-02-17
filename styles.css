@@ -1,0 +1,22 @@
+/* Shared styles extracted from index.html and brasilprev.html */
+body { background: #f7f9fb; }
+.page-header { margin: 2rem 0 1rem; }
+.money-input { font-size: 1.35rem; font-weight: 600; padding: 0.65rem 0.85rem; }
+.rate-badge { font-weight: 600; letter-spacing: 0.2px; }
+.stat-label { color: #6c757d; font-size: 0.9rem; margin-bottom: 0.15rem; }
+.stat-value { font-size: 1.25rem; font-weight: 700; }
+.card h5 { font-weight: 700; }
+.diff-positive { color: #15654a; }
+.diff-negative { color: #b02a37; }
+.muted { color: #6c757d; }
+.note { font-size: 0.9rem; color: #6c757d; }
+
+/* Export button custom look (moved from inline style in index.html) */
+#exportBtn {
+  background-color: #6f5a97;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+#exportBtn:hover {
+  filter: brightness(0.96);
+}
